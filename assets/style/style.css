@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+section.game {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../image/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+section.game div.players {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 240px;
+}
+section.game div.tower {
+    position: absolute;
+}
+section.game div.tower img {
+    width: 350px;
+    height: 400px;
+}
